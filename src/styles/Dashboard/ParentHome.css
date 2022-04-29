@@ -1,0 +1,113 @@
+.parent-section .parent-container {
+    margin: 0 1rem 0 6.7rem;
+    justify-content: space-between;
+}
+
+.parent-section .parent-container .userName {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4ab242;
+    margin-bottom: 52px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.parent-section .parent-container .btns {
+    display: flex;
+}
+
+.parent-section .parent-container .btns a {
+    text-decoration: none;
+    color: #333;
+    width: 130px;
+    text-align: center;
+    padding: 8px 0;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.parent-section .parent-container .btns a:focus {
+    background-color: #4ab242;
+    color: #fff;
+}
+
+.parent-section .parent-container .widget-img img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.parent-section .parent-container .pop-up {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 30px 30px;
+}
+
+.team-section .post-job {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px 15px;
+    background-color: #f7f7f7;
+}
+
+.team-section .left-box {
+    padding: 0 2em 0 0;
+    margin: 0 2em 0 0;
+    border-right: 2px solid #ccc;
+}
+
+.team-section .left-box p {
+    height: 76px;
+    width: 76px;
+    background-color: #3CB371;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 0;
+}
+
+.parent-section .parent-container .outlet-card {
+    margin: 10px 0;
+}
+
+.parent-section .parent-container .outlet-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000aa;
+    margin-bottom: 5px;
+}
+
+.parent-section .parent-container .outlet-card a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.parent-section .parent-container .outlet-card p {
+    margin: 3px 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .parent-section .parent-container{
+        margin: 0;
+    }
+    .parent-section .parent-container .btns{
+        flex-wrap: wrap;
+        /* grid-template-columns: auto auto; */
+    }
+    .parent-section .parent-container .btns a {
+        border-bottom: 1px solid #ccc;
+        margin:0 5px 5px 0;
+    }
+    .parent-section .parent-container .widget-img img {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        object-fit: fill;
+    }
+}

@@ -1,0 +1,101 @@
+.whereLive-section {
+    margin: 4rem 10rem;
+    min-height: 100vh;
+}
+
+.whereLive-container {
+    padding: 1rem 0 2rem 0;
+    padding-left: 15rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+.whereLive-container .heading {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #292929;
+    text-transform: none;
+}
+
+.whereLive-container p {
+    font-weight: 600;
+}
+
+.whereLive-container .inputBox {
+    width: 70%;
+    margin: 10px 0;
+}
+
+.whereLive-container .inputBox input {
+    width: 100%;
+    padding: 0 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.whereLive-container .btmBox {
+    width: 70%;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.whereLive-container .btmBox .btmBoxIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.whereLive-container .btmBox .mileTxt {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0;
+    color: #292929aa;
+}
+
+.whereLive-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+.whereLive-container .next-btn a{
+    width: 100%;
+}
+.whereLive-container .next-btn button {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.whereLive-container .next-btn:active {
+    position: relative;
+    top: 2px;
+}
+
+@media screen and (max-width: 900px) {
+    .whereLive-container {
+        padding-left: 5rem;
+    }
+
+    .whereLive-section {
+        margin: 4rem 5rem;
+
+    }
+
+}

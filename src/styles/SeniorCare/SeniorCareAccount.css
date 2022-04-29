@@ -1,0 +1,92 @@
+.seniorAccount-section {
+    margin: 100px 0;
+}
+
+.seniorAccount-section .seniorAccount-container {
+    width: 450px;
+}
+
+.seniorAccount-container .mid-box h2 {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.seniorAccount-container .box .left-box h6 {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.seniorAccount-container .box input {
+    background-color:transparent;
+    border: 0px solid;
+    width: 300px;
+    outline: none;
+}
+.seniorAccount-container .box:hover input {
+    background-color: #E6E8EA;
+}
+
+.seniorAccount-container .box {
+    width: 100%;
+    min-height: 80px;
+    color: #172C42;
+    cursor: pointer;
+    display: flex;
+    padding: 0px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+}
+
+.seniorAccount-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.seniorAccount-container .tutor-box{
+    min-height: 50px;
+}
+.seniorAccount-container .tutor-box select{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.seniorAccount-container .tutor-box select option{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+}
+.seniorAccount-container .tutor-box:hover select{
+    background-color: #E6E8EA;
+}
+
+.seniorAccount-section .seniorAccount-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.seniorAccount-section .seniorAccount-container .next-btn a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}

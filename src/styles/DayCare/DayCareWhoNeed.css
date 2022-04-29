@@ -1,0 +1,146 @@
+.whoCare-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px 10em 10px;
+}
+
+.whoCare-section .whoCare-container {
+    width: 450px;
+}
+
+.whoCare-container .mid-box {
+    margin: 30px 0 10px 0;
+}
+
+.whoCare-container .mid-box h2 {
+    font-size: 1.3125rem;
+    /* font-family: "Proxima Nova", Arial, sans-serif; */
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.whoCare-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    min-height: 56px;
+    color: #172C42;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    background-color: #FFF;
+    margin: 15px 0;
+}
+
+
+.whoCare-container input:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    cursor: pointer;
+    background-color: #E6E8EA;
+}
+
+.whoCare-container input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.whoCare-container label {
+    width: 100%;
+}
+
+.whoCare-container .dob {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000aa;
+    margin-left: 10px;
+}
+
+.whoCare-container .another-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whoCare-container .another-child button {
+    box-shadow: 0 0 0 0px #ccd1d6;
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+}
+
+.whoCare-container .child-heading {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.whoCare-section .whoCare-container .next-btn button {
+    margin: 15px 0;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    outline: none;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.activeBox {
+    width: 100%;
+    min-height: 56px;
+    color: #172C42;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin: 15px 0;
+    background-color: red;
+}
+
+.react-calendar {
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+
+.react-calendar__navigation {
+    background-color: #3CB371;
+}
+
+.react-calendar__navigation__arrow {
+    color: #ffffff
+}
+
+.react-calendar__navigation__label__labelText {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.calendar-container button {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    background: #3CB371;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}

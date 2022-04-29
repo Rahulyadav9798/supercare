@@ -1,0 +1,137 @@
+.job-section .job-container {
+    border: 2px solid #f7f7f7;
+    margin: 0 50px;
+    padding: 50px;
+}
+
+.job-container form {
+    width: 650px;
+}
+
+.job-container label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #565656;
+    font-family: 'Lato', sans-serif;
+}
+
+.job-container p {
+    margin: 20px 0 0 0;
+}
+
+.job-container .top-box input {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.job-container .head-para {
+    font-weight: bold;
+    color: #565656;
+}
+
+.job-container .head-para::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #4ab242;
+}
+
+.job-container .top-box label {
+    display: block;
+    margin: 10px 0;
+}
+
+.job-container .job-offer label {
+    display: inline-block;
+    margin: 20px
+}
+
+.job-container .job-offer input {
+    width: 2%;
+}
+
+.job-container .mid-box label {
+    margin: 20px 10px;
+}
+
+.job-container .mid-box p {
+    margin: 10px 0 0 0;
+}
+
+.job-container .zip-box label {
+    display: block;
+    margin: 10px 0;
+}
+
+.job-container .zip-box input {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.job-container .caregiver-type input {
+    margin-right: 5px;
+}
+
+.job-container .caregiver-type label {
+    margin: 20px 30px 0 0;
+}
+
+.job-container .expire-date label {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0 10px 0;
+}
+
+.job-container .expire-date input {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.job-container .NumChildren select {
+    margin: 20px 10px 0 0;
+}
+
+.job-container .additional-requirments input {
+    margin-right: 5px;
+}
+
+.job-container .additional-requirments label {
+    margin: 20px 20px 0 0;
+}
+
+.job-container .myKids-love input {
+    margin-right: 5px;
+}
+
+.job-container .myKids-love label {
+    margin: 20px 20px 0 0;
+}
+
+.job-container .pay-rate p {
+    margin: 10px 0 10px 0;
+}
+
+.job-container .react-time-picker__clock--open {
+    display: none;
+}
+
+.job-container .post-btn button {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #4ab242;
+    color: #fff;
+    padding: 8px;
+    width: 150px;
+    border: 1px solid #f7f7f7;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script src="https://kit.fontawesome.com/4968222d7a.js" crossorigin="anonymous"></script>
+  <!--== bootstrap -->
+  <link href="%PUBLIC_URL%/vendors/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+  <!--== animate -->
+  <link href="%PUBLIC_URL%/vendors/css/animate.css" rel="stylesheet" type="text/css" />
+
+  <!--== fontawesome -->
+  <link href="%PUBLIC_URL%/vendors/css/fontawesome-all.css" rel="stylesheet" type="text/css" />
+
+  <!--== themify-icons -->
+  <link href="%PUBLIC_URL%/vendors/css/themify-icons.css" rel="stylesheet" type="text/css" />
+
+  <!--== magnific-popup -->
+  <link href="%PUBLIC_URL%/vendors/css/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+
+  <!--== owl-carousel -->
+  <link href="%PUBLIC_URL%/vendors/css/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+
+  <!--== datepicker -->
+  <link href="%PUBLIC_URL%/vendors/css/date-picker/date-picker.css" rel="stylesheet" type="text/css" />
+
+  <!--== spacing -->
+  <link href="%PUBLIC_URL%/vendors/css/spacing.css" rel="stylesheet" type="text/css" />
+
+  <!--== base -->
+  <link href="%PUBLIC_URL%/vendors/css/base.css" rel="stylesheet" type="text/css" />
+
+  <!--== shortcodes -->
+  <link href="%PUBLIC_URL%/vendors/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+  <!--== default-theme -->
+  <link href="%PUBLIC_URL%/vendors/css/style.css" rel="stylesheet" type="text/css" />
+
+  <!--== responsive -->
+  <link href="%PUBLIC_URL%/vendors/css/responsive.css" rel="stylesheet" type="text/css" />
+
+  <!--== color-customizer -->
+  <link href="#" data-style="styles" rel="stylesheet">
+  <link href="%PUBLIC_URL%/vendors/css/color-customize/color-customizer.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <title>Super Care</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+    </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- <input type="text" id="ziplocation">
+  <div id='map'>
+
+  </div> -->
+</body>
+<!--back-to-top start-->
+
+<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="flaticon-stethoscope"></i></a></div>
+
+<!--back-to-top end-->
+
+<!-- inject js start -->
+
+<!--== theme -->
+<script src="vendors/js/theme.js"></script>
+
+<!--== magnific-popup -->
+<script src="vendors/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!--== owl-carousel -->
+<script src="vendors/js/owl-carousel/owl.carousel.min.js"></script>
+
+<!--== jarallax -->
+<script src="vendors/js/jarallax/jarallax.min.js"></script>
+
+<!--== counter -->
+<script src="vendors/js/counter/counter.js"></script>
+
+<!--== skill -->
+<script src="vendors/js/skill/circle-progressbar.js"></script>
+
+<!--== countdown -->
+<script src="vendors/js/countdown/jquery.countdown.min.js"></script>
+
+<!--== isotope -->
+<script src="vendors/js/isotope/isotope.pkgd.min.js"></script>
+
+<!--== contact-form -->
+<script src="vendors/js/contact-form/contact-form.js"></script>
+
+<!--== datepicker -->
+<script src="vendors/js/date-picker/date-picker.js"></script>
+
+<!--== color-customize -->
+<script src="vendors/js/color-customize/color-customizer.js"></script>
+
+<!--== wow -->
+<script src="vendorsjs/wow.min.js"></script>
+<script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+<script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+
+<script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+<!--== theme-script -->
+<script src="vendors/js/theme-script.js"></script>
+<script type="text/javascript">
+  var placeSearch, autocomplete_origin, autocomplete_destination;
+  var componentForm = {
+    street_number: 'short_name',
+    route: 'long_name',
+    locality: 'long_name',
+    administrative_area_level_1: 'long_name',
+    country: 'long_name',
+    postal_code: 'short_name',
+  };
+
+  function initAutocomplete() {
+    // Create the autocomplete object, restricting the search to geographical
+    // location types.
+
+    autocomplete_origin = new google.maps.places.Autocomplete(
+      (document.getElementById('ziplocation')),
+      { types: ['geocode'] });
+
+    // When the user selects an address from the dropdown, populate the address
+    // fields in the form.
+    autocomplete_origin.addListener('place_changed', fillSAddress);
+  }
+
+  var SLattitude, SLongitude, DLattitude, DLongitude, GLattitude, GLongitude;
+
+
+  function fillSAddress() {
+    // Get the place details from the autocomplete object.
+    var Splace = autocomplete_origin.getPlace();
+    SLattitude = (Splace.geometry.location.lat());
+    SLongitude = (Splace.geometry.location.lng());
+
+    // document.getElementById("origin_latitude").value = '';
+    // document.getElementById("origin_longitude").value = '';
+
+    document.getElementById("ziplocation").value = '';
+    document.getElementById("ziplocation").value = Splace.formatted_address;
+    // document.getElementById("showlocation").innerHTML = Splace.formatted_address;
+
+    var origin_latitude, origin_longitude;
+    for (var i = 0; i < Splace.address_components.length; i++) {
+      var addressType = Splace.address_components[i].types[0];
+      var val = Splace.address_components[i][componentForm[addressType]];
+
+      origin_latitude = SLattitude;
+
+      origin_longitude = SLongitude;
+    }
+
+    initMap(origin_latitude, origin_longitude, Splace.formatted_address);
+  }
+
+
+  // Map Create
+  function initMap(origin_latitude, origin_longitude, name) {
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: {
+        lat: parseFloat(origin_latitude),
+        lng: parseFloat(origin_longitude)
+      },
+    });
+
+    new google.maps.Marker({
+      position: {
+        lat: parseFloat(origin_latitude),
+        lng: parseFloat(origin_longitude)
+      },
+      map,
+      title: name,
+    });
+  }
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZr6k4y7GAHqS0Vw3YGW2VlX-DCVpl7lk&libraries=places,geometry&callback=initAutocomplete"></script>
+
+</html>

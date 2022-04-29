@@ -1,0 +1,70 @@
+.name-section {
+    margin: 100px 10px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.name-section .name-container {
+    width: 450px;
+}
+
+.name-container .mid-box h2 {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.name-container .box .left-box h6 {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.name-container .box input {
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.name-container .box:hover input {
+    background-color: #E6E8EA;
+    width: 80%;
+}
+
+.name-container .box {
+    width: 100%;
+    min-height: 80px;
+    color: #172C42;
+    cursor: pointer;
+    display: flex;
+    padding: 0px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+}
+
+.name-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+
+.name-section .name-container .next-btn button {
+    margin: 15px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}

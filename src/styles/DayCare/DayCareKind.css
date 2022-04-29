@@ -1,0 +1,84 @@
+.dayCareKind-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 10px;
+}
+
+.dayCareKind-section .dayCareKind-container {
+    width: 450px;
+}
+
+.dayCareKind-container .mid-box {
+    margin: 30px 0;
+}
+
+.dayCareKind-container .mid-box h2 {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.dayCareKind-container .box {
+    width: 100%;
+    min-height: 56px;
+    color: #172C42;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    /* background-color: #FFF; */
+    margin: 15px 0;
+}
+
+.dayCareKind-container input[type="radio"]:checked+label {
+    border: 2px solid rgb(60, 60, 134);
+}
+
+.dayCareKind-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.dayCareKind-section .dayCareKind-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.dayCareKind-section .dayCareKind-container .next-btn button {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dayCareKind-container .next-btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.dayCareKind-container .radioBox {
+    display: flex;
+    align-items: center;
+}
+
+.dayCareKind-container input[type="radio"] {
+    display: none;
+}

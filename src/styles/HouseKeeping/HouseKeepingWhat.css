@@ -1,0 +1,28 @@
+
+.housekeeping-section .label-box {
+    width: 100%;
+    min-height: 80px;
+    color: #172C42;
+    cursor: pointer;
+    display: flex;
+    padding: 0px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+}
+.housekeeping-section .mid-para{
+    font-weight: bold;
+}
+
+.housekeeping-section .label-box{
+    min-height: 60px;
+}
+.housekeeping-section .label-box:hover {
+    background-color: #E6E8EA;
+}

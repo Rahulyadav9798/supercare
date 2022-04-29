@@ -1,0 +1,121 @@
+.register-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.register-section .register-container {
+    width: 500px;
+    /* background-color: #ccc; */
+    margin: 50px 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 2px 0px rgb(188 188 188 / 50%);
+}
+
+.register-container .sub-container {
+    padding: 10px 30px;
+}
+
+.register-container .heading {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 28px;
+    line-height: 1.1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #e6e8ea;
+}
+
+.register-container .radio-container {
+    display: flex;
+    margin: 10px 0;
+}
+
+.register-container .radio-container .radioBox {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.register-container .radio-container .radioBox input {
+    cursor: pointer;
+}
+
+.register-container .radio-container .radioBox label {
+    padding: 0 10px;
+    color: #33465a;
+    line-height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-container .sub-container p {
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+}
+
+.register-container .describe-box {
+    width: 100%;
+    margin: 15px 0;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(188 188 188 / 50%);
+}
+
+.register-container .describe-box select {
+    cursor: pointer;
+    width: 100%;
+    min-height: 40px;
+    outline: none;
+    border: none;
+    color: #707070;
+    background: #fff;
+}
+
+.register-container .input-box {
+    border: 1px solid rgb(188 188 188 / 50%);
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.register-container .input-box input {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.register-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.register-section .register-container .next-btn button {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.register-container .next-btn:active {
+    position: relative;
+    top: 2px;
+}

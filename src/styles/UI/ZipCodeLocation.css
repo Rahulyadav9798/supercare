@@ -1,0 +1,85 @@
+.ZipCodeLocation-section {
+    height: 60vh;
+}
+
+.ZipCodeLocation-section .ZipCodeLocation-container {
+    width: 450px;
+    margin: 7rem auto 0 auto;
+}
+
+.ZipCodeLocation-container .mid-box h2 {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.ZipCodeLocation-container .mid-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.ZipCodeLocation-container .mid-box2 h6 {
+    margin: 0 0 0 5px;
+}
+
+.ZipCodeLocation-container .box input {
+    margin: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.ZipCodeLocation-container .box:hover input {
+    background-color: #E6E8EA;
+}
+
+.ZipCodeLocation-container .box {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    line-height: 22px;
+    justify-content: flex-start;
+    background-color: #FFF;
+}
+
+.ZipCodeLocation-container .box .left-box {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.ZipCodeLocation-container .box .left-box .css-2b097c-container {
+    width: 100%;
+}
+
+/* .ZipCodeLocation-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+} */
+
+.ZipCodeLocation-section .ZipCodeLocation-container .next-btn button {
+    margin: 15px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .ZipCodeLocation-section .ZipCodeLocation-container {
+        margin: 5rem auto 0 auto;
+
+    }
+
+}

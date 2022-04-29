@@ -1,0 +1,453 @@
+.childCareTimeTable-section {
+    margin: 80px 0;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container {
+    width: 450px;
+}
+
+.childCareTimeTable-container .head-para {
+    margin: 10px 0;
+}
+
+.childCareTimeTable-container .head-box p {
+    background: #e7f0fb;
+    padding: 10px 50px;
+    font-size: 14px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 15px;
+}
+
+.childCareTimeTable-container .head-box h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #172c42;
+    line-height: 26px;
+    margin: 20px 0 0 0;
+}
+
+.childCareTimeTable-container .btns-box {
+    display: flex;
+    border-radius: 15px;
+    margin: 20px 0 0 0;
+}
+
+.childCareTimeTable-container .btns-box input[type="radio"]:checked+label {
+    z-index: 2;
+    background: #3CB371;
+}
+
+.childCareTimeTable-container .btns-box input {
+    display: none;
+}
+
+.childCareTimeTable-container .btns-box .btnn1 {
+    z-index: 1;
+}
+
+.childCareTimeTable-container .btns-box .btnn {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.childCareTimeTable-container .date-para {
+    margin: 0;
+    font-weight: 500;
+}
+
+.childCareTimeTable-container .btns-box .btnn2 {
+    margin-left: -30px;
+}
+
+.childCareTimeTable-container .date-box label {
+    width: 100%;
+    margin: 20px 0 0 0;
+    color: gray;
+    font-weight: lighter;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.childCareTimeTable-container .date-box input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.childCareTimeTable-container .flexible {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    border: none !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.childCareTimeTable-container .flexible input {
+    width: 5%;
+}
+
+/* .childCareTimeTable-container .week_days input {
+    display: none;
+} */
+
+.childCareTimeTable-container .week_days label {
+    padding: 10px 0;
+    margin: 20px 10px 0 0;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    /* background: #e7f0fb; */
+}
+
+.childCareTimeTable-container .week_days input[type="checkbox"]:checked+label {
+    background-color: #3CB371;
+}
+
+
+
+/* 
+.childCareTimeTable-container .head-box span {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 10px;
+    padding: 0px;
+
+}
+
+.childCareTimeTable-container .head-box p {
+    font-size: 16px;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+.childCareTimeTable-container .main-box p {
+    font-size: 16px;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+
+}
+
+
+
+.childCareTimeTable-container .trust-box .trust-para {
+    padding: 0 20px;
+    line-height: 30px;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+.childCareTimeTable-container .box1:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+
+.childCareTimeTable-container .box2:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container .next-btn a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+
+ */
+
+
+/* 
+.main-box {
+    justify-content: space-between;
+    width: 450px;
+}
+
+
+.react-calendar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+.childCareTimeTable-container select {
+    border: none;
+    background-color: #fff;
+    height: auto;
+    overflow: hidden;
+    min-height: 1.1876em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    outline: none;
+    width: 100%;
+    min-height: 56px;
+    display: block;
+
+    text-decoration: none;
+
+}
+
+.childCareTimeTable-container select:hover {
+    background-color: #E6E8EA;
+}
+
+
+
+.childCareTimeTable-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+} */
+/* 
+.care {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.childCareTimeTable-container .check-box {
+
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.childCareTimeTable-container .check-box :hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+    color: #505D6D;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+
+
+.childCareTimeTable-container .box {
+    width: 100%;
+    min-height: 56px;
+    color: #172C42;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+
+}
+
+.childCareTimeTable-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container .next-btn a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.childCareTimeTable-section .box input {
+    border: none;
+    outline: none
+}
+
+.childCareTimeTable-container .box:hover input {
+
+    background-color: #E6E8EA;
+}
+
+.childCareTimeTable-section .childCareTimeTable-container footer {
+    display: flex;
+    justify-content: inline;
+
+} */
+
+/* .box1 {
+    width: 50px;
+    min-height: 40px;
+    color: #172C42;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    line-height: 22px;
+    border-radius: 16px;
+    background-color: #FFF;
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+.childCareTimeTable-container .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+    margin: 10px;
+}
+
+
+.checkbtn {
+
+
+    justify-content: space-evenly;
+    margin-left: 25px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+
+.childCareTimeTable-container .header1 {
+    width: 300px;
+    min-height: 20px;
+    color: #172C42;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    line-height: 22px;
+    border-radius: 16px;
+    background-color: #FFF;
+    text-align: center;
+    border: none;
+    padding: 1%;
+}
+
+
+
+.childCareTimeTable-container .header1x {
+    width: 300px;
+    min-height: 20px;
+    color: #172C42;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    line-height: 22px;
+    border-radius: 16px;
+    background-color: #3CB371;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 1%;
+}
+
+
+.childCareTimeTable-container .head {
+    width: 100%;
+    color: #172C42;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    line-height: 22px;
+    border-radius: 15px;
+    background-color: #FFF;
+    margin: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.childCareTimeTable-container .box2 {
+    width: 100px;
+    min-height: 50px;
+    color: #172C42;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    padding: 8px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+
+}
+
+.childCareTimeTable-container.Add {
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.childCareTimeTable-container .header1:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+
+.childCareTimeTable-container .header1x:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.childCareTimeTable-container .last {
+    text-align: center;
+    font-size: small;
+
+} */

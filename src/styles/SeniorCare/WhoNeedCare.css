@@ -1,0 +1,102 @@
+.whoNeedCare-section {
+    margin: 100px 0;
+}
+
+.whoNeedCare-section .whoNeedCare-container {
+    width: 450px;
+}
+
+.whoNeedCare-section .whoNeedCare-container a{
+    text-decoration: none;
+}
+
+.whoNeedCare-container .mid-box {
+    margin: 30px 0;
+}
+
+.whoNeedCare-container .mid-box h2 {
+    font-size: 1.3125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.whoNeedCare-container .mid-box p {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.whoNeedCare-container .box .left-box h6 {
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.whoNeedCare-container p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #505D6D;
+}
+
+.whoNeedCare-container .box {
+    width: 100%;
+    min-height: 80px;
+    color: #172C42;
+    cursor: pointer;
+    display: flex;
+    padding: 0px 16px;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px #ccd1d6;
+    align-items: center;
+    line-height: 22px;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 15px 0;
+}
+
+.whoNeedCare-container .box:hover {
+    box-shadow: 0 0 0 1px #ccd1d6;
+    background-color: #E6E8EA;
+}
+
+.whoNeedCare-container .d-box .select {
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.whoNeedCare-container .d-box .select:active {
+    border: 2px solid #3CB371;
+}
+
+.whoNeedCare-container .d-box p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.whoNeedCare-section .whoNeedCare-container .next-btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #3CB371;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
+.whoNeedCare-section .whoNeedCare-container .next-btn a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
